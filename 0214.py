@@ -65,7 +65,26 @@
 #     result +=i
 # print(result)
 
-scores=[90, 85, 77, 65, 97]
-for i in range(5):
-    if scores[i]>=80:
-        print(i+1,"번 학생은 합격입니다.")
+# scores=[90, 85, 77, 65, 97]
+# for i in range(5):
+#     if scores[i]>=80:
+#         print(i+1,"번 학생은 합격입니다.")
+
+#sorted()
+
+# result=sorted([9, 1, 8, 4, 5])
+# print(result)
+
+# reverse_result= sorted([9, 1, 8, 5, 4], reverse=True)
+# print(reverse_result)
+
+#counter
+
+# from collections import Counter
+# counter = Counter(['red', 'blue', 'green', 'blue', 'blue'])
+
+# print(counter['blue']) #'blue'의 횟수
+# print(counter['green'])
+# print(dict(counter))
+
+
