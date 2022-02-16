@@ -200,3 +200,32 @@
 # for i in range(1, n+1):
 #     a = a+i
 # print(a)
+
+# import sys
+
+# t = int(input())
+# for i in range(t):
+#     a, b = map(int, sys.stdin.readline().split())
+#     print(a+b)
+# n = int(input())
+# for i in range(n, 0, -1):
+#     print(i)
+
+# t = int(input())
+# for i in range(1, t+1):
+#     a, b = map(int, input().split())
+#     print("Case #"+str(i)+':',a+b)
+
+# t = int(input())
+# for i in range(1, t+1):
+#     a, b = map(int, input().split())
+#     print(f"Case #{i}: {a} + {b} = {a+b}")
+# t = int(input())
+# for i in range(1, t+1):
+#     print(' '*(t-i)+i*'*')
+
+n, x = map(int, input().split())
+a = list(map(int, input().split()))
+for i in a:
+    if i<x:
+        print(i, end=" ")
