@@ -147,13 +147,56 @@
 # else:
 #     print(int(0))
 
-x = int(input())
-y = int(input())
-if x<0 and y>0:
-    print(int(2))
-elif x>0 and y>0:
-    print(int(1))
-elif x<0 and y<0:
-    print(int(3))
-else:
-    print(int(4))
+# x = int(input())
+# y = int(input())
+# if x<0 and y>0:
+#     print(int(2))
+# elif x>0 and y>0:
+#     print(int(1))
+# elif x<0 and y<0:
+#     print(int(3))
+# else:
+#     print(int(4))
+
+# h, m = map(int, input().split())
+# if m >= 45:
+#     print(h, m - 45)
+# elif m<45 and h>0:
+#     print(h-1, m + 15)
+# else:
+#     print(23, m+15)
+
+# h, m = map(int, input().split())
+# c = int(input())
+
+# if m+c >=60:
+#     print((h + (m+c)//60)%24, (m+c)%60)
+# if m+c <60:
+#     print(h%24, (m+c)%60)
+
+# a, b, c = map(int, input().split())
+# if a==b==c:
+#     print(10000+a*1000)
+# elif a==b!=c:
+#     print(1000+a*100)
+# elif a!=b==c:
+#     print(1000+b*100)
+# elif a==c!=b:
+#     print(1000+a*100)
+# elif a!=b!=c:
+#     print(max(a,b,c)*100)
+
+# n = int(input())
+# for i in range(1,10):
+#     print(n, "*", i, "=", n*i)
+
+# t = int(input())
+# for _ in range(t):
+#     a, b = map(int, input().split())
+#     print(a+b)
+
+# n = int(input())
+# a = 0
+# for i in range(1, n+1):
+#     a = a+i
+# print(a)
